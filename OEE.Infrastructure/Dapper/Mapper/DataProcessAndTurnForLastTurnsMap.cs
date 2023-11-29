@@ -4,14 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OEE.Infrastructure.Mapper
+namespace OEE.Infrastructure.Dapper.Mapper
 {
-    public class DateProcessAndTurnMap : EntityMap<DateProcessAndTurnModel>
+    public class DataProcessAndTurnForLastTurnsMap : EntityMap<DateProcessAndTurnForLastTurnsModel>
     {
-        public DateProcessAndTurnMap()
+        public DataProcessAndTurnForLastTurnsMap()
         {
             Map(x => x.dateProcess).ToColumn("DATA_PROCESSO");
             Map(x => x.turn).ToColumn("TURNO");
+            Map(x => x.dateEnd).ToColumn("DATA_FINAL");
         }
     }
 }

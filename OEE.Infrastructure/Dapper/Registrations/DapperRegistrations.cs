@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using Dapper.FluentMap;
-using OEE.Infrastructure.Mapper;
+using OEE.Infrastructure.Dapper.Mapper;
 
 namespace OEE.Infrastructure.Dapper.Registrations
 {

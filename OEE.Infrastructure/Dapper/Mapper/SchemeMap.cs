@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OEE.Infrastructure.Mapper
+namespace OEE.Infrastructure.Dapper.Mapper
 {
     public class SchemeMap : EntityMap<SchemeDBModel>
     {

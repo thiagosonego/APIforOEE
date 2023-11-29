@@ -28,21 +28,17 @@
     <PackageReference Include="Autofac" Version="4.9.4" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
+	<PackageReference Include="MediatR" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.Extensions.Localization" Version="3.1.1" />
     <PackageReference Include="Polly" Version="7.2.1" />
-    <PackageReference Include="Sequor.Libs.Application.SeedWork" Version="1.0.17" />
-    <PackageReference Include="Sequor.Libs.AutofacModules" Version="1.0.5" />
-    <PackageReference Include="Sequor.Libs.EventBus.Extensions" Version="1.0.20" />
-    <PackageReference Include="Sequor.Libs.EventBus.Persistence" Version="1.0.5" />
-    <PackageReference Include="Sequor.Libs.EventBus.SeedWork" Version="1.0.1" />
-    <PackageReference Include="Sequor.Libs.MessageHelpers" Version="1.0.0" />
     <PackageReference Include="System.Globalization" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sequor.CCGL.Andon.OEE.Domain\OEE.Domain.csproj" />
-    <ProjectReference Include="..\Sequor.CCGL.Andon.OEE.Infrastructure\OEE.Infrastructure.csproj" />
+    <ProjectReference Include="..\OEE.Domain\OEE.Domain.csproj" />
+    <ProjectReference Include="..\OEE.Infrastructure\OEE.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

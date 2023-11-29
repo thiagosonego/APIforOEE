@@ -4,14 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OEE.Infrastructure.Mapper
+namespace OEE.Infrastructure.Dapper.Mapper
 {
-    public class DateStartAndEndMap : EntityMap<DateStartAndEndModel>
+    public class DateStartAndEndForWeeksMap : EntityMap<DateStartAndEndForWeeksModel>
     {
-        public DateStartAndEndMap()
+        public DateStartAndEndForWeeksMap()
         {
             Map(x => x.dateStart).ToColumn("dateStart");
             Map(x => x.dateEnd).ToColumn("dateEnd");
+            Map(x => x.weeks).ToColumn("weeks");
         }
     }
 }

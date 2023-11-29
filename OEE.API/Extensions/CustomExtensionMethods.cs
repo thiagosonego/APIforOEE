@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace OEE.Extensions
+namespace OEE.API.Extensions
 {
     public static class CustomExtensionMethods
     {

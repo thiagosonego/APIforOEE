@@ -1,7 +1,7 @@
 ﻿using Dapper.FluentMap.Mapping;
 using OEE.Domain.Models;
 
-namespace OEE.Infrastructure.Mapper
+namespace OEE.Infrastructure.Dapper.Mapper
 {
     public class OEEMap : EntityMap<OEEDBModel>
     {
